@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace trntv\debug\xhprof\panels;
+namespace dimabdc\debug\xhprof\panels;
 
-use trntv\debug\xhprof\models\search\Xhprof;
+use dimabdc\debug\xhprof\models\search\Xhprof;
 use Yii;
 use yii\base\Application;
 use yii\base\BootstrapInterface;
