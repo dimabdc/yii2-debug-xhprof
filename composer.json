@@ -1,5 +1,5 @@
 {
-    "name": "trntv/yii2-debug-xhprof",
+    "name": "dimabdc/yii2-debug-xhprof",
     "description": "xhprof panel for Yii2 debug module",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","yii2-debug","panel","xhprof"],
@@ -20,10 +20,10 @@
     },
     "autoload": {
         "psr-4": {
-            "trntv\\debug\\xhprof\\": ""
+            "dimabdc\\debug\\xhprof\\": ""
         }
     },
     "extra": {
-        "bootstrap": "trntv\\debug\\xhprof\\panels\\XhprofPanel"
+        "bootstrap": "dimabdc\\debug\\xhprof\\panels\\XhprofPanel"
     }
 }
