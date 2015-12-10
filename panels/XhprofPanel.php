@@ -35,7 +35,7 @@ class XhprofPanel extends Panel implements BootstrapInterface
 
     public function getSummary()
     {
-        return Yii::$app->view->render('@trntv/debug/xhprof/views/summary.php', [
+        return Yii::$app->view->render('@dimabdc/debug/xhprof/views/summary.php', [
             'panel' => $this,
             'active' => !empty($this->data),
             'callCount' => count($this->data)
@@ -62,7 +62,7 @@ class XhprofPanel extends Panel implements BootstrapInterface
     {
         $searchModel = new Xhprof();
         $dataProvider = $searchModel->search(Yii::$app->request->getQueryParams(), $this->getModels());
-        return Yii::$app->view->render('@trntv/debug/xhprof/views/detail.php', [
+        return Yii::$app->view->render('@dimabdc/debug/xhprof/views/detail.php', [
             'panel' => $this,
             'dataProvider'=>$dataProvider,
             'searchModel'=>$searchModel
